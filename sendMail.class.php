@@ -27,12 +27,12 @@
                 $this->mail->Host = 'localhost';
                 $this->mail->SMTPAuth = false;
                 $this->mail->SMTPAutoTLS = false;
-                $this->mail->Username = 'ahmed@eagleexportsco.com';
-                $this->mail->Password = 'p&L23#bM-yMX';
+                $this->mail->Username = 'yourMail@gmail.com';
+                $this->mail->Password = '****PassWord*****';
                 $this->mail->SMTPSecure = none;
                 $this->mail->Port = 25;
                 $this->mail->setFrom($this->emailSender, 'رسالة من الموقع');
-                $this->mail->addAddress('Eagle.exportsworld@gmail.com', 'ToME');
+                $this->mail->addAddress('ahmedmonier2005@gmail.com', 'ToME');
                 $this->mail->isHTML(true);
                 $this->mail->CharSet = 'UTF-8';
                 $this->mail->setLanguage('ar', '/PHPMailer/language/phpmailer.lang-ar.php/');
